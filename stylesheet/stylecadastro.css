@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #75BEE9;
+}
+.cabeca {
+    color: #ffffff;
+}
+
+.cabeca > h1 {
+    font-size: 50px;
+    font-weight: 900;
+    padding: 35px;
+    margin-top: 20px;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.form {
+    background-color: #ffffff;
+    padding: 40px 40px 60px 40px;
+    border-radius: 2em;
+    width: 450px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.form-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.form-image > img{
+    width: 200px;
+}
+
+.form-name{
+    display: flex;
+    flex-direction: column;
+}
+.form-dt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.form-cpf {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+
+}
+
+
+.form-select{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1px;
+}
+
+.form-select > select {
+    border-radius: 6px;
+}
+
+.form-titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: #00425F;
+}
+
+input, select {
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+.form-input {
+    background-color: #00425F;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.form-input::placeholder {
+    color: #ffffff;
+}
+
+.form-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0px 10px 0px;
+}
+
+.form-button > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    border: none;
+    background-color: #75BEE9;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+}
+
+.img-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-weight: 600;
+    color:#00425F;
+}

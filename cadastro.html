@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet/stylecadastro.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+
+</head>
+<body>
+
+
+    <div class="cabeca">
+        <h1 id="textoo">CADASTRO REALIZADO</h1>
+    </div>
+    
+    <form class="form" name="formulario2" id="formulario2">
+        <div class="img-footer">
+            <img width="330px" style="margin-bottom: -30px; margin-top: -25px;" src="images/logomold.png" alt="LOGOTIPO DA EMPRESA" />
+        </div>   
+
+        <div class="form-name">
+                <label class="form-titulo">Nome:</label>
+                <input class="form-input" type="text" value="" name="nome2" id="nome2" placeholder="Primeiro nome" disabled>
+        </div>
+        
+        <div class="form-dt">
+                <label class="form-titulo">Data de nascimento:</label>
+                <input class="form-input" min="1960-01-01" max="2022-08-22" type="date" value="" name="dtnascimento2" id="dtnascimento2" disabled>
+        </div>
+
+        <div class="form-cpf">
+
+            <label class="form-titulo" >CPF:</label>
+            <input class="form-input" value="" type="text" name="cpf2" id="cpf2" maxlength="14" disabled/>
+     
+        </div>
+
+        <div class="form-select">
+            <label class="form-titulo">Função:</label>
+            <select class="form-input" name="funcao2" id="funcao2" disabled></select>
+
+        </div>
+            
+    </form>
+    <script type="text/javascript" src="javascript/scriptcadastro.js"></script>
+</body>
+</html>

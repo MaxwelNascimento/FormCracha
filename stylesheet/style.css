@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #75BEE9;
+}
+
+.cabeca {
+    color: #ffffff;
+}
+
+.cabeca > h1 {
+    font-size: 50px;
+    font-weight: 900;
+    padding: 35px;
+    margin-top: 20px;
+}
+
+.cabeca > p {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.form {
+    background-color: #00425F;
+    padding: 40px 40px 40px 40px;
+    border-radius: 2em;
+    width: 450px;
+    margin-bottom: 120px;
+    
+}
+
+.form-name{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.form-dt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.form-cpf {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+input:focus {
+    background-color: #e9e9e9;
+}
+
+/* select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("https://img.icons8.com/external-those-icons-fill-those-icons/24/000000/external-down-arrows-those-icons-fill-those-icons-7.png");
+    background-position: 330px center;
+    background-repeat: no-repeat;
+} */
+
+.form-select{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-select > select {
+    border-radius: 6px;
+}
+
+.form-titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+input {
+    border-radius: 6px;
+
+}
+
+.form-input {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.form-input::placeholder {
+    color:#92a3ab;
+    opacity: 1;
+    
+}
+
+.form-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0px 10px 0px;
+}
+
+.form-button > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    border: none;
+    background-color: #75BEE9;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+}

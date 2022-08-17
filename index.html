@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+
+</head>
+<body>
+
+    <div class="cabeca">
+        <h1>CADASTRO DE CRACHÁ </h1>
+        <p>Preencha todos os campos para <br>
+                                    ter seu crachá virtual.</p>
+    </div>
+
+    <form class="form" method="get" name="formulario" id="formCadastro" action="cadastro.html">
+        <div class="form-name">
+                <label for="nome" class="form-titulo">Nome:</label>
+                <input class="form-input" type="text" value="" name="nome" id="nome" placeholder="Nome" autocomplete="off" required/>
+        </div>
+        
+        <div class="form-dt">
+                <label for="dtnascimento" class="form-titulo">Data de nascimento:</label>
+                <input class="form-input" min="1930-12-30" max="2022-12-30" value="" type="date" name="dtnascimento" id="dtnascimento" autocomplete="off" required/>
+        </div>
+
+        <div class="form-cpf">
+
+            <label for="cpf" class="form-titulo" >CPF:</label>
+            <input class="form-input" value="" type="text" name="cpf" id="cpf" maxlength="14" onkeyup="mascara_cpf()" placeholder="000.000.000-00" autocomplete="off" required/>
+     
+        </div>
+
+        <div class="form-select">
+            <label for="funcao" class="form-titulo">Função:</label>
+            <select class="form-input" name="funcao" id="funcao" >
+
+                <option selected disabled value="Select">Selecione</option>
+                <option class="form-input-option" value="Back-end">Back end</option>
+                <option class="form-input-option" value="Front-end">Front end</option>
+                <option class="form-input-option" value="FullStack">FullStack</option>
+                <option class="form-input-option" value="Designer">Designer</option>
+                <option class="form-input-option" value="RH">RH</option>
+                <option class="form-input-option" value="Marketing-Cloud">Marketing Cloud</option>
+          
+            </select>
+
+        </div>
+
+        <div class="form-button">
+             <!-- <button onclick=""> CRIAR  </button> -->
+            <button id="btn-form">CRIAR</button>
+        </div>
+        
+    </form>    
+    <script type="text/javascript" src="javascript/script.js"></script>
+</body>
+</html>
